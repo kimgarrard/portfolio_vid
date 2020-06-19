@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Kim Garrard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon2.png"/>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html"><img src="images/logo9.png" alt="" class="logo"></a>
+    </nav>
+
+    <div class="background2"></div>
+
+    <main>
+
+      <div id="realcontent">
+
+        <div class="test overmijleft">
+          <div class="background">
+            <div class="">
+              <h2>Design, zo fijn!</h2>
+            </div>
+            <img class="kim kimgarrard" src="images/kimgarrard.png" alt="">
+            <img class="kim" src="images/kim2.png" alt="">
+          </div>
+          <div class="portfoliodiv">
+            <h1>Wiebenik?</h1>
+          </div>
+        </div>
+
+
+        <div class="mijnwerk overmij">
+
+          <article>
+            <!-- <h2 class="title1">Wie ben ik?</h2> -->
+            <p>Ik ben Kim Garrard, een 22-jarige designer. Ik ben vooral gek op tekenen, muziek luisteren en muziek maken. </p>
+
+            <p class="">In mijn studie, CMD (Communication- and Multimedia Design) heb ik
+            mijn passie helemaal gevonden. Mijn liefde voor design begon al vroeg, al vanaf kinds af aan ben ik gek op
+            tekenen en bedacht ik elke dag wel weer iets nieuws waar ik mijn creativiteit in kwijt kon. Naast mijn liefde voor design,
+            heb ik ook ontdekt dat ik soms stiekem best een codenerd kan zijn. </p>
+
+            <p class="overmijp">Ik design het liefst om bij te dragen aan een liefdevolle wereld vol creativiteit.</p>
+<!--
+            <p>Het liefst maak ik designs die bijdragen aan een liefdevolle wereld vol creativiteit. </p>
+            Creativiteit en originaliteit in combinatie met een zinvolle bijdrage
+            leveren aan mens en omgeving zijn voor mij belangrijk -->
+
+            <p class="overmijp2">Nieuwsgierig?</p>
+            <a class="mail" href="mailto:kimgarrard030@gmail.com">mail mij</a>
+            <a class="mail call" href="tel:0630555540">0630555540</a>
+          </article>
+
+          </div>
+
+    <div id="fakecontent"></div>
+
+
+    </main>
+
+
+    <script src="js/overmij.js"></script>
+    </script>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+
+    const mq = window.matchMedia( "(min-width: 79em)" );
+
+    if (mq.matches) {
+      $(window).on('scroll', function() {
+        $("#realcontent").css("left", -$(window).scrollTop());
+      });
+
+    };
+
+    </script>
+</body>
+
+</html>
