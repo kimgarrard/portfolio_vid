@@ -177,7 +177,7 @@ nav a {
 }
 
 .meerweten {
-  margin-top: 6vh;
+  top: 6vh;
 }
 
 .background a {
@@ -1227,7 +1227,7 @@ nav a {
   }
 
   #fakecontent {
-    height: 340vw;
+    height: 380vw;
   }
 
   .background {
