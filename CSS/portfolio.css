@@ -734,8 +734,8 @@ nav a {
 }
 
 #leerdoel .maindetail {
-  margin-top: 0vh;
-  padding-top: 76vh;
+  margin-top: -4vh;
+  padding-top: 80vh;
   height: auto;
 }
 
