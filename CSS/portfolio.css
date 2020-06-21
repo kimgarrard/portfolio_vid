@@ -1215,7 +1215,7 @@ nav a {
     width: 55vw;
   } */
 
-  .imgdiv img:hover {
+  #realcontent .imgdiv img:hover {
     transform: scale(1.1);
   }
 
