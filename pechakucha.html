@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Kim Garrard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon2.png"/>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html"><img src="images/logo9.png" alt="" class="logo"></a>
+    </nav>
+
+    <main id="etnischprofileren">
+
+      <div class="firstfotodiv">
+      </div>
+
+      <div class="maindetail">
+
+      <div class="introdiv">
+
+        <article class="">
+          <h2>Pecha Kucha</h2>
+        </article>
+
+        <article class="">
+          <p>In een team hebben we een pecha kucha presentatie gegeven. Dit is een speciale manier van presenteren, het is een diavoorstelling
+          van 20 afbeeldingen in een totale tijd van 6 minuten en 40 seconden. Elke dia wordt precies 20 seconden getoond. Ik zat samen in een
+          team met Joël en Lizz (topteam).</p>
+        </article>
+      </div>
+
+
+      <div class="imgandtext imgandtextfullscreen">
+
+        <div class="imgdiv videodiv">
+          <img src="images/pechakucha_mindmap.png" alt="">
+        </div>
+
+        <article class="">
+          <h2>Het onderwerp</h2>
+          <p>We zijn begonnen met nadenken waar we de presentatie over wilden geven. We zijn hierom begonnen met een mindmap, hierin hebben
+          we alle onderwerpen die ons interessant leken opgeschreven. </p>
+          <p>Keith Haring, het surrealisme en Jimmy Nelson spraken ons alle drie wel aan. Hier hebben we meer informatie over gezocht en
+          uiteindelijk hebben we gekozen voor het surrealisme. Hier konden we veel over vertellen en de stijl sprak ons enorm aan. </p>
+        </article>
+
+      </div>
+
+
+      <div class="pechakucha">
+
+        <article class="">
+          <h2>De stijl</h2>
+          <p>Voor de dia's wilden we het surrealistische heel erg terug laten komen. Hierom hebben we veel verschillende dingen geprobeerd en
+          moodboards gemaakt. Iedereen heeft dingen geprobeerd en daarna hebben we er samen naar gekeken en de dingen die ons aanspraken gecombineerd. </p>
+        </article>
+
+        <section class="imgrow imgrowetnisch">
+          <div class="imgdiv">
+            <img src="images/pechakucha_1.png" alt="">
+          </div>
+
+          <div class="imgdiv">
+            <img src="images/pechakucha_2.png" alt="">
+          </div>
+
+          <div class="imgdiv">
+            <img src="images/pechakucha_3.png" alt="">
+          </div>
+
+        </section>
+
+      </div>
+
+
+      <div class="">
+
+        <article class="">
+          <h2>De website</h2>
+          <p>Op de website kun je de data en grafieken bekijken. We lichten kort uit waar het onderzoek over gaat en ook kun je zien
+          wie er achter de data zit. De grafieken hebben we niet alleen voor desktop ontworpen, maar ook voor mobiel.</p>
+        </article>
+
+      </div>
+
+        <div class="imgdiv videodiv videodivetnischprofileren">
+          <video src="images/etnischprofileren_website.mov" autoplay muted loop poster=""></video>
+        </div>
+
+
+        <div class="casesdiv">
+              <a class="button" href="art.html">Vorige</a>
+
+              <a class="button" href="schoenen.html">Volgende</a>
+        </div>
+
+
+
+      </div>
+
+    </main>
+
+
+    <!-- <script src="js/portfolio.js"></script> -->
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+
+    document.querySelector('video').playbackRate = 1.5;
+
+    // https://stackoverflow.com/questions/34831602/increase-element-opacity-when-user-scrolls-down-the-page
+
+    $(window).scroll(function() {
+    var scrollTop = $(this).scrollTop();
+
+        $('.firstfotodiv').css({
+          opacity: function() {
+              var elementHeight = $(this).height(),
+              opacity = ((elementHeight - scrollTop) / elementHeight);
+              return opacity;
+          }
+        });
+    });
+
+    </script>
+
+</body>
+
+</html>

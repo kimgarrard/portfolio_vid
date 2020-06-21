@@ -672,6 +672,11 @@ nav a {
   background-size: cover;
 }
 
+.pechakucha section div {
+  height: 26vh !important;
+  background-color: white !important;
+}
+
 #nemo .maindetail {
   margin-top: 23vh;
   padding-top: 48vh;
