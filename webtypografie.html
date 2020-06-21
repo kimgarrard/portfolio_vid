@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Kim Garrard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon2.png"/>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html"><img src="images/logo9.png" alt="" class="logo"></a>
+    </nav>
+
+    <main id="nemo">
+
+      <div class="firstfotodiv">
+      </div>
+
+      <div class="maindetail">
+
+      <div class="introdiv">
+
+        <article class="">
+          <h2>Webtypografie</h2>
+        </article>
+
+        <article class="">
+          <p>De uitdaging bij deze opdracht was om geluiden uit twee scenes van de Blade Runner met css te animeren,
+            terwijl de video afspeelt. Voor iemand die doof is kan deze scene droog overkomen, terwijl er eigenlijk heel veel spanning in zit.
+            Ik heb geprobeerd om lekker veel te experimenteren en de spanning & sfeer van de scenes meer naar voren te laten komen door middel van verschillende visuele elementen.
+          </p>
+          <a class="button" href="https://kimgarrard.github.io/closed-captions/" target="_blank">Bekijk website</a>
+        </article>
+
+      </div>
+
+
+      <div class="imgandtext imgandtextschoenen">
+
+        <article class="">
+          <h2>Typografie</h2>
+          <p>Ik heb gekozen om gebruik te maken van het Brenner font, hier heb ik voor gekozen omdat je met dit font veel verschillende kanten op kunt en hiermee met de typografie veel kunt zeggen. </p>
+          <p>Voor de machine heb ik gekozen voor brenner mono, omdat dit font statisch en computerachtig lijkt. Bij de hoofdrolspeler heb ik gekozen voor brenner, een wat losser speelser font. Hier heb ik voor gekozen om dit karakter menselijker te maken en om het contrast tussen deze twee personen te versterken.</p>
+        </article>
+
+        <div class="imgdiv videodiv">
+          <img src="images/webanimatie_3.png" alt="">
+        </div>
+
+      </div>
+
+      <div class="imgandtext imgandtextschoenen">
+
+        <div class="imgdiv videodiv">
+          <img src="images/webanimatie_1.png" alt="">
+        </div>
+
+        <article class="">
+          <h2>Kleur & elementen</h2>
+          <p>De meeste geluiden heb ik met kleur & vorm gevisualiseerd. Aan het begin hoor je spannende muziek, de achtergrond verandert steeds van kleur op de maat van de muziek en het scherm wordt af en toe donkerder.</p>
+          <p>Waneer de scene zich binnen verder afspeelt, voelt de sfeer bedrukt. Over het hele scherm heb ik een soort raster overlay geplaatst, waardoor ik het 'gevangen' gevoel meer naar voren wil laten komen.</p>
+        </article>
+
+      </div>
+
+      <div class="imgandtext imgandtextschoenen">
+
+        <article class="">
+          <h2>Tweede scene</h2>
+          <p>Bij de tweede scene zijn de geluiden heftiger en zijn de muziek & tonen intenser. Hier heb ik de achtergrond steeds donkerder laten worden en komt er ook langzaam een donkere en rode gloed om het scherm. Daarnaast heb ik op de video een invert effect geplaatst (flitst heel snel). Wanneer het geluid aan het einde minder wordt faden deze effecten ook weer uit.</p>
+        </article>
+
+        <div class="imgdiv videodiv">
+          <img src="images/webanimatie_2.png" alt="">
+        </div>
+
+      </div>
+
+
+
+      <div class="casesdiv">
+            <a class="button" href="extra.html">Vorige</a>
+
+            <a class="button" href="orca.html">Volgende</a>
+      </div>
+
+
+      </div>
+
+    </main>
+
+
+    <!-- <script src="js/portfolio.js"></script> -->
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+
+    // https://stackoverflow.com/questions/34831602/increase-element-opacity-when-user-scrolls-down-the-page
+
+    $(window).scroll(function() {
+    var scrollTop = $(this).scrollTop();
+
+        $('.firstfotodiv').css({
+          opacity: function() {
+              var elementHeight = $(this).height(),
+              opacity = ((elementHeight - scrollTop) / elementHeight);
+              return opacity;
+          }
+        });
+    });
+
+    </script>
+
+</body>
+
+</html>
