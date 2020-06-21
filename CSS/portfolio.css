@@ -733,6 +733,22 @@ nav a {
   background-size: cover;
 }
 
+#leerdoel .maindetail {
+  margin-top: 40vh;
+  padding-top: 36vh;
+  height: auto;
+}
+
+#leerdoel .firstfotodiv {
+  background: url(../images/illustratiec.png) no-repeat center 50%;
+  height: 75vh;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  z-index: -2;
+  background-size: cover;
+}
+
 .casesdiv {
   width: 100%;
   display: flex;
