@@ -532,7 +532,7 @@ nav a {
 }
 
 #art .firstfotodiv {
-  background: url(../images/artb.png) no-repeat center center;
+  background: url(../images/ontwerpen1b.png) no-repeat center center;
   height: 75vh;
   width: 100vw;
   overflow: hidden;
@@ -543,6 +543,15 @@ nav a {
 
 #art .imgrow .imgdiv {
   height: 42vh;
+}
+
+#art .imgandtext .imgrow {
+    width: 50%;
+}
+
+#art .imgrow .imgdiv {
+    height: 35vh;
+    width: 32%;
 }
 
 #etnischprofileren .maindetail {
