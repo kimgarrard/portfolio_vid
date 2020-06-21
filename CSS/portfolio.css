@@ -749,6 +749,10 @@ nav a {
   background-size: cover;
 }
 
+.imgrowillustreren div {
+  height: 15vw !important;
+}
+
 .casesdiv {
   width: 100%;
   display: flex;
