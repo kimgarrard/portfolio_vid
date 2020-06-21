@@ -554,6 +554,10 @@ nav a {
     width: 32%;
 }
 
+.padding {
+  padding: 5%;
+}
+
 #etnischprofileren .maindetail {
   margin-top: 21vh;
   padding-top: 50vh;
