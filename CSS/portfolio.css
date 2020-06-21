@@ -559,19 +559,24 @@ nav a {
 }
 
 #etnischprofileren .maindetail {
-  margin-top: 21vh;
+  margin-top: 27vh;
   padding-top: 50vh;
   height: auto;
 }
 
 #etnischprofileren .firstfotodiv {
-  background: url(../images/etnischprofilerenc.png) no-repeat center 40%;
+  background: url(../images/pechakuchac.png) no-repeat center 20%;
   height: 75vh;
   width: 100vw;
   overflow: hidden;
   position: fixed;
   z-index: -2;
   background-size: cover;
+}
+
+.pechakucha section div {
+  height: 26vh !important;
+  background-color: white !important;
 }
 
 .imgrowetnisch .imgdiv {
@@ -670,11 +675,6 @@ nav a {
   position: fixed;
   z-index: -2;
   background-size: cover;
-}
-
-.pechakucha section div {
-  height: 26vh !important;
-  background-color: white !important;
 }
 
 #nemo .maindetail {
