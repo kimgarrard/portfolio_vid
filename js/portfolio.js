@@ -11,6 +11,7 @@ let hover5 = document.querySelector(".hoverimg5");
 let hover6 = document.querySelector(".hoverimg6");
 let hover7 = document.querySelector(".hoverimg7");
 let hover8 = document.querySelector(".hoverimg8");
+let hover9 = document.querySelector(".hoverimg9");
 
 let img0 = document.querySelector(".img0hover");
 let img0b = document.querySelector(".img0hoverb");
@@ -30,6 +31,8 @@ let img7 = document.querySelector(".img7hover");
 let img7b = document.querySelector(".img7hoverb");
 let img8 = document.querySelector(".img8hover");
 let img8b = document.querySelector(".img8hoverb");
+let img9 = document.querySelector(".img9hover");
+let img9b = document.querySelector(".img9hoverb");
 
 let button = document.querySelector(".button2");
 let kimgarrard = document.querySelector(".kimgarrard");
@@ -139,4 +142,15 @@ hover8.addEventListener('mouseover', function() {
 hover8.addEventListener('mouseout', function() {
   img8.classList.remove("hide");
   img8b.classList.add("hide");
+});
+
+
+hover9.addEventListener('mouseover', function() {
+  img9.classList.add("hide");
+  img9b.classList.remove("hide");
+});
+
+hover9.addEventListener('mouseout', function() {
+  img9.classList.remove("hide");
+  img9b.classList.add("hide");
 });
