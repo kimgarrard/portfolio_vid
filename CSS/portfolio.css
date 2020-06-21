@@ -677,6 +677,22 @@ nav a {
   background-size: cover;
 }
 
+.magister {
+  width: 26% !important;
+}
+
+.magistertext {
+  width: 60% !important;
+}
+
+.videodiv2 {
+  height: 45vh !important;
+}
+
+.videodiv2 img {
+  object-fit: contain;
+}
+
 #nemo .maindetail {
   margin-top: 23vh;
   padding-top: 48vh;
