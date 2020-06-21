@@ -489,7 +489,7 @@ nav a {
 }
 
 #enjoin .firstfotodiv {
-  background: url(../images/enjoinc.png) no-repeat center 90%;
+  background: url(../images/typografieb.png) no-repeat center 90%;
   height: 75vh;
   width: 100vw;
   overflow: hidden;
@@ -509,6 +509,11 @@ nav a {
 
 #enjoin .imgandtext .imgrow {
   width: 60%;
+}
+
+#enjoin .imgdivpdf {
+  width: 532px;
+  height: 532px;
 }
 
 .imgdivenjoin {
