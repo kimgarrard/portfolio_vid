@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Kim Garrard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon2.png"/>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html"><img src="images/logo9.png" alt="" class="logo"></a>
+    </nav>
+
+    <main id="dinner">
+
+      <div class="firstfotodiv">
+      </div>
+
+      <div class="maindetail">
+
+      <div class="introdiv">
+
+        <article class="">
+          <h2>Eigen leerdoel</h2>
+        </article>
+
+        <article class="">
+          <p>Tijdens dit vak hebben we veel theorie over beeldtaal geleerd, we hebben veel naar beeld gekeken en beelden geanaliseerd.
+          We hebben het gehad over de Semiotiek, de Retorica en de Gestalt. Naast theorie hebben we ook opdrachten gedaan. </p>
+        </article>
+
+      </div>
+
+
+      <div class="">
+
+        <article class="">
+          <h2>Semiothiek opdracht</h2>
+          <p>Bij deze opdracht was het de bedoeling dat we één voorwerp namen en dat we dit object in 3 verschillende sferen en
+          contexten zouden plaatsen. Daarnaast moesten we een indexicaal teken gebruiken om het beeld te versterken.
+          Ik heb gekozen voor een bezem, met eentje in een fantasiewereld, eentje bij een huisvrouw en de laatste in een horrorsetting. </p>
+        </article>
+
+        <section class="imgrow">
+          <div class="imgdiv">
+            <img src="images/beeldtaal_1.png" alt="">
+          </div>
+
+          <div class="imgdiv">
+            <img src="images/beeldtaal_2.png" alt="">
+          </div>
+
+          <div class="imgdiv">
+            <img src="images/beeldtaal_3.png" alt="">
+          </div>
+
+        </section>
+
+      </div>
+
+
+      <div class="imgandtext">
+
+        <div class="imgdiv">
+          <img src="images/beeldtaald.png" alt="">
+        </div>
+
+        <article class="">
+          <h2>Eindopdracht</h2>
+          <p>Voor de eindopdracht moesten we zelf een campagne kiezen en daar een beeld bij maken. Ik heb gekozen voor een campagne
+            tegen groen weghalen in de stad. Hierbij moesten de theoriën toegepast worden op dit beeld. </p>
+            <p>Het groen in de stad wordt hier
+            letterlijk weggebouwd omdat de poster bijna letterlijk wordt 'dichtgemetseld'. Je ziet de kinderen rechts spelen, maar je ziet op de achtergrond
+            al dat ook dit wordt gesloopt. </p>
+        </article>
+
+      </div>
+
+
+      <div class="casesdiv">
+            <a class="button invisible" href="http://cmotalk.nl/dinner" target="_blank"></a>
+
+            <a class="button" href="typografie.html">Volgende</a>
+      </div>
+
+
+
+    </div>
+
+    </main>
+
+
+    <!-- <script src="js/portfolio.js"></script> -->
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+
+    // https://stackoverflow.com/questions/34831602/increase-element-opacity-when-user-scrolls-down-the-page
+
+    $(window).scroll(function() {
+    var scrollTop = $(this).scrollTop();
+
+        $('.firstfotodiv').css({
+          opacity: function() {
+              var elementHeight = $(this).height(),
+              opacity = ((elementHeight - scrollTop) / elementHeight);
+              return opacity;
+          }
+        });
+    });
+
+    </script>
+
+</body>
+
+</html>
